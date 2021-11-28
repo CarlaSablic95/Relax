@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  justify-content: space-evenly !important;
+}
+
+body {
+   overflow-x: hidden;
+   background-color: #f0efeb;
+}
+
+header {
+  background-color: #e63946;
+}
+
+#titulo-sitio {
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  font-style: italic;
+  padding-top: 10px;
+  color: #f8f9fa;
+}
+
+#titulo-productos {
+text-transform: uppercase;
+letter-spacing: 5px;
+}
+
+#buscador {
+ padding-bottom: 25px;
+}
+
+.list-group-item-action.active {
+  background-color:#1d3557;
+  border-color:#1d3557;
+}
+
+.btn-primary {
+  border-color:#1d3557;
+}
+ 
+
+nav {
+  box-shadow: 3px 3px 10px rgb(97, 97, 97);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.nav-outfit-man {
+ color: #020205;
+}
+
+
+h2, .titulo-outfits {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  margin-top: 15px;
+  margin-bottom:10px;
+  text-transform: uppercase;
+}
+
+
+#outfits {
+  text-transform: uppercase;
+  
+}
+
+#about div h3 {
+text-transform: uppercase;
+letter-spacing: 5px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+li a {
+  color:#f8f9fa;
+}
+
+
+a:hover{
+  color:#f8f9fa;
+  text-decoration: none;
+}
+
+div.card-body {
+  text-align: center;
+}
+.card {
+  margin-bottom: 30px;
+}
+
+a.btn:hover {
+  background-color:#f8f9fa;
+  color:#1d3557;
+  font-weight: bold;
+  border-color: #1d3557;
+}
+button.btn:hover {
+  color:#1d3557;
+
+}
+
+
+a.btn {
+background-color: #1d3557;
+color: #f1faee;
+}
+
+.card-link {
+  color:#1d3557;
+  font-weight: bold;
+}
+
+.nombre{
+  background-color: transparent !important;
+  color:#212529;
+}
+
+.card-link:hover {
+  color: #e63946;
+
+}
+
+.img-outfit {
+width:100%;
+}
+
+.categoria {
+  box-shadow: 8px 8px 10px 2px rgba(70, 69, 66, 0.5);
+}
+
+.classic-title, .urban-title, .rocker-title {
+  position: relative;
+  top: 306px;
+}
+
+
+.card-img-overlay {
+  margin-top: 50%;
+  color: #f1faee;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: rgba(70, 69, 66, 0.5);
+ 
+}
+
+h5 {
+background-color:rgba(29, 53, 87, 0.5);
+color: #f1faee;
+padding: 10px;
+text-align: center;
+}
+
+
+/* Formulario Buscador */
+
+.form-control-sm {
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50px;
+  height: 25px;
+  text-align: start;
+  text-indent: 5px;
+}
+
+/* Sección principal*/
+.seccion-principal, .seccion-carrusel{
+    margin-top: 20px;
+  }
+
+  .seccion-principal{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+/* Cards de indumentaria femenina y masculina */
+
+.card-img-overlay a h5 {
+  color: #f1faee;
+
+}
+
+/* Carrousel */
+
+.d-block {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.carousel-inner{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/* OUTFITS MUJER */
+
+.seccion-woman {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding:40px;
+
+}
+
+
+.boho, .casual-woman, .rocker-woman, .sporty-woman {
+  height: 70vh;
+  display: inline-block;
+  background-image: url("../img/boho-chic.png");
+  background-size: cover;
+}
+  
+.boho { 
+  background-image: url("../img/boho-chic.png");
+  background-size: cover;
+}
+
+.casual-woman {
+  background-image: url("../img/casual-woman.jpg");
+  background-size: cover;
+}
+
+.rocker-woman {
+  background-image: url("../img/rocker-woman.jpg");
+  background-size: cover;
+}
+
+.sporty-woman {
+  background-image: url("../img/sporty-woman.jpg");
+  background-size: cover;
+}
+
+
+.foot{
+  justify-content: space-evenly;
+  margin:0 auto;
+}
+
+.style {
+  display: inline-block;
+  width: 100%;
+}
+/***********************************************************/
+/* OUTFITS HOMBRE */
+
+
+.classic-man, .urbano-man, .rocker-man {
+  height: 70vh;
+  display: inline-block;
+}
+
+
+.classic-man {
+  background-image: url("../img/classic-man.jpg");
+  background-size: cover;
+
+}
+
+.urbano-man {
+  background-image: url("../img/urbano-man.jpg");
+  background-size: cover;
+}
+
+.rocker-man {
+  background-image: url("../img/rocker-man.jpg");
+  background-size: cover;
+}
+
+.outfits-man {
+      padding: 0 40px;
+      margin-bottom: 15px;
+      width: 100%;
+}
+/***********************************************************/
+
+/* C O N J U N T O  H O M B R E S*/
+
+.list-group {
+  display: inline-block;
+  margin-top: 20px;
+
+}
+
+
+
+.list-group-item a {
+  color:black;
+}
+/***********************************************************/
+
+/*PRODUCTOS HOMBRE/ MUJER */
+
+.col-lg-8 {
+  margin-top: 5%;
+  padding: 5px;
+}
+
+.col-md-4 {
+  margin-bottom: 10px;
+}
+
+/***********************************************************/
+
+/* CONJUNTOS MAN */
+
+.container-fluid ol{
+  background-color:rgba(255, 255, 255, 0.5);
+  margin-top:10px;
+}
+
+.breadcrumb-item a {
+  color: #020205;
+}
+
+
+/***********************************************************/
+
+/*DETALLE PRODUCTO (IMAGEN DEL PRODUCTO)*/
+
+#producto {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.seguir-comprando{
+  color:#f8f9fa;
+ } 
+ 
+
+/***********************************************************/
+
+
+/* R E G I S T R O */
+
+.col-6 {
+    margin: 20px auto 20px auto;
+    width: 25%;
+}
+
+/* C O N T A C T O / REGISTRO/ LOGIN */
+.contacto, .registro, .login{
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  text-transform: uppercase;
+  margin-top:20px;
+}
+
+.seccion-contacto, .seccion-registro, .seccion-login {
+  padding: 30px;
+  margin: 15px;  
+}
+
+.seccion-contacto, .seccion-registro, .seccion-login input {
+ padding-top: 10px;
+}
+
+button[type="submit"], .btn {
+  background-color:rgb(29, 53, 87);
+color: #f1faee;
+margin-top:10px;
+}
+
+#exampleModalLongTitle.modal-title {
+  color: #020205;
+  background-color: transparent;
+}
+
+button[type="submit"]:hover {
+color: #f1faee;
+}
+
+button[type="button"]:hover {
+  color: #f1faee;
+  }
+
+.navbar-toggler .collapsed:hover{
+  background-color: #f1faee !important;
+}
+
+/* FAQ */
+.faq-section {
+  max-width: 380px;
+}
+
+/* F O O T E R */
+
+footer {
+  background-color: #003049;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+/* SCROLL TOP BOTON */
+.fa-arrow-circle-up {
+  position: fixed;
+  z-index: 999;
+  bottom: 3vh;
+  right: calc(0.25rem + 1vw); /* 4rem anchura del btn*/
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  color: #e63946;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* DESKTOP */
+@media (min-width: 1020px) {
+  .faq-section {
+    max-width: 800px;
+  }
+}
+
+
+
+
